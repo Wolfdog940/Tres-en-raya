@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 en Raya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game">
+        <div><p>Tres en Raya</p></div>
+        <div>
+            <div class="player" id="player" hidden>Es el turno del : Jugador 1 html</div>
+            <div id ='winner' hidden>
+                <div id ='winner-trophy' hidden>
+                    <img  id ='confeti'  src="/handy-red-confetti.gif"></img>
+                    <img class ='trofeo'   src="/bouncy-cup-with-laurel-branches-and-stars.gif"></img>
+                    
+                </div>
+                
+            </div>
+            <div id = 'draw' hidden></div>
+            <img id ='hands'   src="/taxi-handshake-1.gif"  hidden></img>
+        </div>
+        <div id ='board' hidden >
+            <div class="board">
+            <div class="cell" id="1"></div>
+            <div class="cell" id="2"></div>
+            <div class="cell" id="3"></div>
+            <div class="cell" id="4"></div>
+            <div class="cell" id="5"></div>
+            <div class="cell" id="6"></div>
+            <div class="cell" id="7"></div>
+            <div class="cell" id="8"></div>
+            <div class="cell" id="9"></div>
+        </div>
+        <div class="butonContainer">
+            <button id="startButton" class="antique-button">Iniciar</button>
+            
+        </div>
+        
+    </div>
+    <button id='restartButton' class="antique-button" hidden>Jugar otra vez!</button>
+    </div>
+
+
+    <script src="logica.js"></script>
+</body>
+</html>

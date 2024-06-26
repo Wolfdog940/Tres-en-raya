@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f0eada; /* Color de fondo similar al tono de papel antiguo */
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 2px;
+    background-color: #f5deb3; /* Color de fondo similar al tono de papel amarillento */
+    padding: 5px;
+    border: 2px solid #ccc; /* Borde del tablero */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.cell {
+    background-color: #f5deb3; /* Color de fondo similar al tono de papel amarillento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7em;
+    cursor: pointer;
+    border: 1px solid #ccc; /* Borde de las celdas */
+    font-family: 'Nanum Brush Script';
+    font-family: "Gochi Hand", cursive;
+    color: #948d7a;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Asegura que ocupe el 100% del área vertical disponible */
+}
+
+.nanum-brush-script-regular {
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+p{
+    font-family: 'Nanum Brush Script';
+    font-size: xxx-large;
+}
+.player{
+    
+    font-family: 'Nanum Brush Script';
+    font-size: xx-large;
+    margin-bottom: 2%;
+}
+
+.antique-button {
+    width: 30%;
+    background-color: #e6d5b6; /* Color de fondo similar al tono de papel amarillento */
+    border: 2px solid #ccc; /* Borde del botón */
+    color: #333; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    font-family: 'Nanum Brush Script', cursive; /* Fuente */
+    font-size: 2em; /* Tamaño del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de apuntador */
+    
+}
+
+.antique-button:hover {
+    background-color: #e0cdaa; /* Color de fondo cuando se pasa el ratón */
+}
+
+.antique-button:active {
+    background-color: #d9b791; /* Color de fondo cuando se presiona */
+}
+.butonContainer{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+#winner-trophy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nanum Brush Script';
+    font-size: xx-large;
+    margin-bottom: 2%;
+}
+h1{
+    font-family: 'Nanum Brush Script';
+    font-size: xxx-large;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
